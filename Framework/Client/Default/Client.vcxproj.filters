@@ -1,0 +1,810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{46565e54-abd3-4096-b548-2570560b2b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{09dfbdf5-0c02-4d46-a9f0-528813d078cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defines">
+      <UniqueIdentifier>{9f8f00e8-34b0-409d-bc81-15215d50ca61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{88762a0b-3db1-4895-bc15-29d3503d37ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Logo">
+      <UniqueIdentifier>{34e7f0c6-0ef2-4495-a348-ce09da9dab3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.GamePlay">
+      <UniqueIdentifier>{9ef9291a-7227-4af8-ad02-66867cd437e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading">
+      <UniqueIdentifier>{ef00db3b-2891-4e31-85ba-c3f507225167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Loading\Loader">
+      <UniqueIdentifier>{e56639fd-ebcf-4aa7-9c58-8ec817914955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{30c785ee-3f97-4e6e-87c3-00166bab233a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\CameraDynamic">
+      <UniqueIdentifier>{d568c962-5e1b-46ee-8cf1-9435bc0329ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\BackGround">
+      <UniqueIdentifier>{3f8e6942-d57d-4559-86d3-a3ff6bd322f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster">
+      <UniqueIdentifier>{b5643ab0-db0e-498c-b677-b6d0c0632819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player">
+      <UniqueIdentifier>{58c5517e-7bcf-490f-9d6d-e03fcfc53078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Sky">
+      <UniqueIdentifier>{9adab374-e1e7-48c4-9c40-dc6e3129b337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain">
+      <UniqueIdentifier>{2aa03f30-373d-4a25-82cb-2e85904107d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{29d33d27-c3bf-481e-9563-e84152dc3cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.UI">
+      <UniqueIdentifier>{8dd273dc-bcec-4bac-bf2a-b4829203c5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.UI\Start">
+      <UniqueIdentifier>{403aa1db-fd46-434d-8e58-7ce5365ae554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.UI\Money">
+      <UniqueIdentifier>{2ba1f94d-c88d-4975-935d-19df9c722d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.UI\Touch">
+      <UniqueIdentifier>{270f3754-bca7-4924-9544-69f3923050b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train">
+      <UniqueIdentifier>{fd528751-ef61-459c-8df5-36def9f3a106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Truck">
+      <UniqueIdentifier>{5c8e678e-362e-47b4-9e86-f4e5cb50e22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Car">
+      <UniqueIdentifier>{a609b295-5445-4fc4-9040-acbbdc9a44f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item">
+      <UniqueIdentifier>{19c43b21-bf89-491b-885b-c1e8c45be7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Fork">
+      <UniqueIdentifier>{bc0e0313-c8ca-467a-89c0-c6977b2a92a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Sword">
+      <UniqueIdentifier>{95e33055-85cf-4021-af9f-acd005ea389f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\Psy">
+      <UniqueIdentifier>{765f75e9-7761-4764-95c2-ac85e5505f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain\Grass">
+      <UniqueIdentifier>{2ad6291c-7475-4056-bc06-3d3ba4758229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\TEST">
+      <UniqueIdentifier>{d6304b1c-3836-447d-a1c1-f73df64ad775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain\Water">
+      <UniqueIdentifier>{4c50c50c-23e0-41f9-95d3-b05835d2a99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain\Road">
+      <UniqueIdentifier>{71eb5a1d-9a58-495b-b912-9dc5d045b306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Taxi-X">
+      <UniqueIdentifier>{884a6159-5f24-4648-9d5c-04d5b08a990b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\People">
+      <UniqueIdentifier>{e357164f-36ff-41fa-8c49-a22611100c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject">
+      <UniqueIdentifier>{5f69acab-8220-4696-84d1-29c2551ba212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Truck\Oil_Truck">
+      <UniqueIdentifier>{f60a263d-11c5-4c63-8bc6-a78b0ac4749a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\NormalTrain">
+      <UniqueIdentifier>{404a5581-8bdd-4386-8aff-9315ffba5680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\NormalTrain\Train_Front">
+      <UniqueIdentifier>{dd35f2db-3d72-43da-9151-95d6b83ed093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\NormalTrain\Train_End">
+      <UniqueIdentifier>{bbbc04b2-f322-48ff-bb6b-12fb11ac08c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\NormalTrain\Train_Middle">
+      <UniqueIdentifier>{b662c7d7-34eb-4e40-881d-a4f842d49fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\KoreaTrain">
+      <UniqueIdentifier>{e1460263-7435-41f8-a429-d6278cebd7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\JapanTrain">
+      <UniqueIdentifier>{95aa3c03-28b1-40e6-a3eb-e090df14fba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Car\NormalCar">
+      <UniqueIdentifier>{f1ed5c7e-e8b3-4e09-a5df-c1489dc5e682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\JapanTrain\JTrain_Front">
+      <UniqueIdentifier>{7653255d-3858-4085-bed7-0779b1757939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\JapanTrain\JTrain_Middle">
+      <UniqueIdentifier>{f397bc0b-80bf-4646-9d69-26314e26d596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\JapanTrain\JTrain_End">
+      <UniqueIdentifier>{26eb8d34-8041-4817-b78a-1ad59102fbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\KoreaTrain\KTrain_Front">
+      <UniqueIdentifier>{65f247fd-10dc-461f-b798-ceb881a08123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\KoreaTrain\KTrain_Middle">
+      <UniqueIdentifier>{183e1d4e-d2be-4e35-9f54-4c58c8621f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Train\KoreaTrain\KTrain_End">
+      <UniqueIdentifier>{34843a47-a58e-4f0c-89fb-f31633ba3ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Car\Muccle">
+      <UniqueIdentifier>{4210a74f-4b63-44d6-8f96-49c1957e7581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Truck\JapanTruck">
+      <UniqueIdentifier>{96e7ef52-ee50-4f35-9cab-93a225743d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Truck\KoreaTruck">
+      <UniqueIdentifier>{e388892f-a637-4deb-9439-52421d41746c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Car\JapanCar">
+      <UniqueIdentifier>{1b0b09dd-30a1-479e-a22f-ce1d6b293262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Car\KoreaCar">
+      <UniqueIdentifier>{87340025-94ec-4d1e-a41b-fda0ab41ba19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Car\Wagon">
+      <UniqueIdentifier>{ae6ea957-c18e-4457-9f1b-5e668e404134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain\Train">
+      <UniqueIdentifier>{84353992-a710-4bfb-988b-07b8b06b0af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\98.Level_Test">
+      <UniqueIdentifier>{e9696e56-b0d2-4828-a963-8222f21b9157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.UI\Loading">
+      <UniqueIdentifier>{1d7c50a2-24db-4349-8555-418859a0f1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03.Level_Korea">
+      <UniqueIdentifier>{84fecbb9-334e-44d6-8e09-8ecb225d20ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\Default">
+      <UniqueIdentifier>{d3cc6568-6211-4689-a32b-187ea73bb204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain\Default">
+      <UniqueIdentifier>{54362853-45ef-41b8-a507-9956a83cc8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Tree">
+      <UniqueIdentifier>{7a310c7e-92c3-4b4f-94c2-6da062bb5eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Tree\TreeDefault">
+      <UniqueIdentifier>{7ab0ddc9-1b3b-4694-a54f-662be7b9cdf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Tree\TreeA">
+      <UniqueIdentifier>{604e9e97-3fd2-4e86-9d5e-7e0b56e77a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Tree\TreeB">
+      <UniqueIdentifier>{f49e152c-2fbc-4835-b280-3f6a348b6279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Tree\TreeC">
+      <UniqueIdentifier>{de602e13-e463-4d3c-8e55-586f54e7fc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\FineTree">
+      <UniqueIdentifier>{9d90d501-eb2f-4bd1-aae1-1f422171508a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Korea">
+      <UniqueIdentifier>{db0327e9-6cd5-4277-92f2-7b4cfc08a767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Korea\Apartment">
+      <UniqueIdentifier>{269804c3-ec11-4db8-970e-149c43f96a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Japan">
+      <UniqueIdentifier>{d8d4bfa0-e9b0-416e-80eb-4641808c6700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Korea\BBQ">
+      <UniqueIdentifier>{c2e4ba59-81c0-4403-b79b-8edfd150dceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Japan\Buliding">
+      <UniqueIdentifier>{b9133b3f-b3bd-4b22-8c4e-779c1221aff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\FineTree\FineTreeA">
+      <UniqueIdentifier>{6536d8df-f6db-4135-ae9e-3f9075e16f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\FineTree\FineTreeB">
+      <UniqueIdentifier>{cac590be-273e-4c93-ab21-e9ac58ce776a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\FineTree\FineTreeC">
+      <UniqueIdentifier>{2cdda0c5-cbd5-41a2-b091-34f47143febd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\KoreaDrummer">
+      <UniqueIdentifier>{0b807ebb-48ea-4d8a-91d4-d26af1de23c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\Samurai">
+      <UniqueIdentifier>{87503814-8f9c-4484-bc9f-ff0b659f32a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\Koala">
+      <UniqueIdentifier>{e8f51d04-a87e-4d22-b810-679cec990d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\Chicken">
+      <UniqueIdentifier>{44255fd3-b7e5-47d6-8d4e-d3da225e7da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Japan\Castle">
+      <UniqueIdentifier>{917ef1ff-1bc9-43c5-be8a-e86a7ddfa7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Japan\Shrine">
+      <UniqueIdentifier>{bb6e6edd-5508-4c0f-b70b-0936a56a6c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\Japan\Sign">
+      <UniqueIdentifier>{6d46631a-d7d2-4604-b4bf-a2d2ea4e07a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Truck\NormalTruck">
+      <UniqueIdentifier>{66f491ec-143d-4205-82ed-6115263bd646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Select">
+      <UniqueIdentifier>{b4e24fc0-8483-45fc-9c9e-de9afc04ea5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\Default">
+      <UniqueIdentifier>{d3ca4917-075a-4757-838b-5800b502219a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\State">
+      <UniqueIdentifier>{516964a1-310f-4fc1-aaef-84876528f90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\TrainLight">
+      <UniqueIdentifier>{02641569-486b-4935-b58e-d556ec1b8695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Level_Japan">
+      <UniqueIdentifier>{f269f356-11f4-4119-b7e5-7693bae2b985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\OtherObject\SendStage">
+      <UniqueIdentifier>{b211a947-f824-4461-a1d7-0f7f6d58d953}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\01.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Dynamic.h">
+      <Filter>02.GameObject\CameraDynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>02.GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Bin\ShaderFiles\Shader_Defines.hpp">
+      <Filter>97.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02.GameObject\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Touch.h">
+      <Filter>03.UI\Touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Start.h">
+      <Filter>03.UI\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Taxi.h">
+      <Filter>02.GameObject\Monster\Taxi-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item.h">
+      <Filter>02.GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fork.h">
+      <Filter>02.GameObject\Fork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sword.h">
+      <Filter>02.GameObject\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Psy.h">
+      <Filter>02.GameObject\Player\Psy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Grass.h">
+      <Filter>02.GameObject\Terrain\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Root_Test.h">
+      <Filter>02.GameObject\Monster\TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_People.h">
+      <Filter>02.GameObject\Monster\People</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_OilTruck.h">
+      <Filter>02.GameObject\Monster\Truck\Oil_Truck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_TrainEnd.h">
+      <Filter>02.GameObject\Monster\Train\NormalTrain\Train_End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Train.h">
+      <Filter>02.GameObject\Monster\Train\NormalTrain\Train_Front</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_TrainMiddle.h">
+      <Filter>02.GameObject\Monster\Train\NormalTrain\Train_Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Car.h">
+      <Filter>02.GameObject\Monster\Car\NormalCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Truck.h">
+      <Filter>02.GameObject\Monster\Truck\NormalTruck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KoreaCar002.h">
+      <Filter>02.GameObject\Monster\Car\KoreaCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KoreaCar003.h">
+      <Filter>02.GameObject\Monster\Car\KoreaCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JapanCar001.h">
+      <Filter>02.GameObject\Monster\Car\JapanCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JapanCar002.h">
+      <Filter>02.GameObject\Monster\Car\JapanCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JapanCar003.h">
+      <Filter>02.GameObject\Monster\Car\JapanCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Wagon.h">
+      <Filter>02.GameObject\Monster\Car\Wagon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Muccle.h">
+      <Filter>02.GameObject\Monster\Car\Muccle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KTrain_Front.h">
+      <Filter>02.GameObject\Monster\Train\KoreaTrain\KTrain_Front</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KTrain_Middle.h">
+      <Filter>02.GameObject\Monster\Train\KoreaTrain\KTrain_Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KTrain_End.h">
+      <Filter>02.GameObject\Monster\Train\KoreaTrain\KTrain_End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JTrain_Front.h">
+      <Filter>02.GameObject\Monster\Train\JapanTrain\JTrain_Front</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JTrain_Middle.h">
+      <Filter>02.GameObject\Monster\Train\JapanTrain\JTrain_Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JTrain_End.h">
+      <Filter>02.GameObject\Monster\Train\JapanTrain\JTrain_End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JapanTruck001.h">
+      <Filter>02.GameObject\Monster\Truck\JapanTruck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JapanTruck002.h">
+      <Filter>02.GameObject\Monster\Truck\JapanTruck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KoreaTruck001.h">
+      <Filter>02.GameObject\Monster\Truck\KoreaTruck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KoreaTruck002.h">
+      <Filter>02.GameObject\Monster\Truck\KoreaTruck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KoreaCar001.h">
+      <Filter>02.GameObject\Monster\Car\KoreaCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Player.h">
+      <Filter>02.GameObject\CameraDynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Water.h">
+      <Filter>02.GameObject\Terrain\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train.h">
+      <Filter>02.GameObject\Terrain\Train</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Road.h">
+      <Filter>02.GameObject\Terrain\Road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Test.h">
+      <Filter>01.Levels\98.Level_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loading_BackGround.h">
+      <Filter>02.GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Korea.h">
+      <Filter>01.Levels\03.Level_Korea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Money.h">
+      <Filter>03.UI\Money</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObject\Player\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObject\Terrain\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tree.h">
+      <Filter>02.GameObject\OtherObject\Tree\TreeDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TreeA.h">
+      <Filter>02.GameObject\OtherObject\Tree\TreeA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TreeB.h">
+      <Filter>02.GameObject\OtherObject\Tree\TreeB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TreeC.h">
+      <Filter>02.GameObject\OtherObject\Tree\TreeC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FineTreeA.h">
+      <Filter>02.GameObject\OtherObject\FineTree\FineTreeA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FineTreeB.h">
+      <Filter>02.GameObject\OtherObject\FineTree\FineTreeB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FineTreeC.h">
+      <Filter>02.GameObject\OtherObject\FineTree\FineTreeC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Apartment.h">
+      <Filter>02.GameObject\OtherObject\Korea\Apartment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BBQ.h">
+      <Filter>02.GameObject\OtherObject\Korea\BBQ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Castle.h">
+      <Filter>02.GameObject\OtherObject\Japan\Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sign.h">
+      <Filter>02.GameObject\OtherObject\Japan\Sign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Buliding.h">
+      <Filter>02.GameObject\OtherObject\Japan\Buliding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shrine.h">
+      <Filter>02.GameObject\OtherObject\Japan\Shrine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Chicken.h">
+      <Filter>02.GameObject\Player\Chicken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Koala.h">
+      <Filter>02.GameObject\Player\Koala</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Samurai.h">
+      <Filter>02.GameObject\Player\Samurai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Korea_Drummer.h">
+      <Filter>02.GameObject\Player\KoreaDrummer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>03.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Loading_Twinkle.h">
+      <Filter>03.UI\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StateComponent.h">
+      <Filter>02.GameObject\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Select.h">
+      <Filter>01.Levels\02.Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Truck2.h">
+      <Filter>02.GameObject\Monster\Truck\NormalTruck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02.GameObject\Monster\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TrainLight.h">
+      <Filter>02.GameObject\OtherObject\TrainLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Japan.h">
+      <Filter>01.Levels\04.Level_Japan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SendStage.h">
+      <Filter>02.GameObject\OtherObject\SendStage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\01.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Dynamic.cpp">
+      <Filter>02.GameObject\CameraDynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>02.GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02.GameObject\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Touch.cpp">
+      <Filter>03.UI\Touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Start.cpp">
+      <Filter>03.UI\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Taxi.cpp">
+      <Filter>02.GameObject\Monster\Taxi-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item.cpp">
+      <Filter>02.GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fork.cpp">
+      <Filter>02.GameObject\Fork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sword.cpp">
+      <Filter>02.GameObject\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Psy.cpp">
+      <Filter>02.GameObject\Player\Psy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Grass.cpp">
+      <Filter>02.GameObject\Terrain\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Root_Test.cpp">
+      <Filter>02.GameObject\Monster\TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_People.cpp">
+      <Filter>02.GameObject\Monster\People</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_OilTruck.cpp">
+      <Filter>02.GameObject\Monster\Truck\Oil_Truck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_TrainEnd.cpp">
+      <Filter>02.GameObject\Monster\Train\NormalTrain\Train_End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Train.cpp">
+      <Filter>02.GameObject\Monster\Train\NormalTrain\Train_Front</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_TrainMiddle.cpp">
+      <Filter>02.GameObject\Monster\Train\NormalTrain\Train_Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Car.cpp">
+      <Filter>02.GameObject\Monster\Car\NormalCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Truck.cpp">
+      <Filter>02.GameObject\Monster\Truck\NormalTruck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KoreaCar002.cpp">
+      <Filter>02.GameObject\Monster\Car\KoreaCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KoreaCar003.cpp">
+      <Filter>02.GameObject\Monster\Car\KoreaCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JapanCar001.cpp">
+      <Filter>02.GameObject\Monster\Car\JapanCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JapanCar002.cpp">
+      <Filter>02.GameObject\Monster\Car\JapanCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JapanCar003.cpp">
+      <Filter>02.GameObject\Monster\Car\JapanCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Wagon.cpp">
+      <Filter>02.GameObject\Monster\Car\Wagon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Muccle.cpp">
+      <Filter>02.GameObject\Monster\Car\Muccle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KTrain_Front.cpp">
+      <Filter>02.GameObject\Monster\Train\KoreaTrain\KTrain_Front</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KTrain_Middle.cpp">
+      <Filter>02.GameObject\Monster\Train\KoreaTrain\KTrain_Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KTrain_End.cpp">
+      <Filter>02.GameObject\Monster\Train\KoreaTrain\KTrain_End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JTrain_Front.cpp">
+      <Filter>02.GameObject\Monster\Train\JapanTrain\JTrain_Front</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JTrain_Middle.cpp">
+      <Filter>02.GameObject\Monster\Train\JapanTrain\JTrain_Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JTrain_End.cpp">
+      <Filter>02.GameObject\Monster\Train\JapanTrain\JTrain_End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JapanTruck001.cpp">
+      <Filter>02.GameObject\Monster\Truck\JapanTruck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JapanTruck002.cpp">
+      <Filter>02.GameObject\Monster\Truck\JapanTruck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KoreaTruck001.cpp">
+      <Filter>02.GameObject\Monster\Truck\KoreaTruck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KoreaTruck002.cpp">
+      <Filter>02.GameObject\Monster\Truck\KoreaTruck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KoreaCar001.cpp">
+      <Filter>02.GameObject\Monster\Car\KoreaCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Player.cpp">
+      <Filter>02.GameObject\CameraDynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Water.cpp">
+      <Filter>02.GameObject\Terrain\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Road.cpp">
+      <Filter>02.GameObject\Terrain\Road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train.cpp">
+      <Filter>02.GameObject\Terrain\Train</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Test.cpp">
+      <Filter>01.Levels\98.Level_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Thiking.cpp">
+      <Filter>01.Levels\01.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loading_BackGround.cpp">
+      <Filter>02.GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Korea.cpp">
+      <Filter>01.Levels\03.Level_Korea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Money.cpp">
+      <Filter>03.UI\Money</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Loading_Twinkle.cpp">
+      <Filter>03.UI\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JunkPlayerSorce.cpp">
+      <Filter>02.GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObject\Player\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObject\Terrain\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JunkTerrainSource.cpp">
+      <Filter>02.GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TreeA.cpp">
+      <Filter>02.GameObject\OtherObject\Tree\TreeA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tree.cpp">
+      <Filter>02.GameObject\OtherObject\Tree\TreeDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TreeB.cpp">
+      <Filter>02.GameObject\OtherObject\Tree\TreeB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TreeC.cpp">
+      <Filter>02.GameObject\OtherObject\Tree\TreeC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FineTreeA.cpp">
+      <Filter>02.GameObject\OtherObject\FineTree\FineTreeA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FineTreeB.cpp">
+      <Filter>02.GameObject\OtherObject\FineTree\FineTreeB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FineTreeC.cpp">
+      <Filter>02.GameObject\OtherObject\FineTree\FineTreeC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Apartment.cpp">
+      <Filter>02.GameObject\OtherObject\Korea\Apartment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BBQ.cpp">
+      <Filter>02.GameObject\OtherObject\Korea\BBQ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Castle.cpp">
+      <Filter>02.GameObject\OtherObject\Japan\Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sign.cpp">
+      <Filter>02.GameObject\OtherObject\Japan\Sign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shrine.cpp">
+      <Filter>02.GameObject\OtherObject\Japan\Shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Buliding.cpp">
+      <Filter>02.GameObject\OtherObject\Japan\Buliding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Chicken.cpp">
+      <Filter>02.GameObject\Player\Chicken</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Koala.cpp">
+      <Filter>02.GameObject\Player\Koala</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Samurai.cpp">
+      <Filter>02.GameObject\Player\Samurai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Korea_Drummer.cpp">
+      <Filter>02.GameObject\Player\KoreaDrummer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader_DumpText.cpp">
+      <Filter>01.Levels\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>03.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StateComponent.cpp">
+      <Filter>02.GameObject\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Select.cpp">
+      <Filter>01.Levels\02.Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Truck2.cpp">
+      <Filter>02.GameObject\Monster\Truck\NormalTruck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02.GameObject\Monster\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TrainLight.cpp">
+      <Filter>02.GameObject\OtherObject\TrainLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Japan.cpp">
+      <Filter>01.Levels\04.Level_Japan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SendStage.cpp">
+      <Filter>02.GameObject\OtherObject\SendStage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_AnimModel.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_NonAnimModel.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
